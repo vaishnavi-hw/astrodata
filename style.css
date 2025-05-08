@@ -1,0 +1,33 @@
+.container{
+    padding: 30px;
+    max-width: 500px;
+    margin: 100px auto;
+    background: rgb(147, 245, 212);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form label {
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+form input{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+form textarea{
+    width: 500px;
+    height: 200px;
+}
+form button{
+padding: 8px;
+background: rgb(64, 181, 228);
+border: none;
+border-radius: 10px;
+}
+
+
