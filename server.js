@@ -6,7 +6,7 @@ const port = 3000;
 const app = express();
 app.use(express.urlencoded())
 app.use(express.static(__dirname))
-mongoose.connect('mongodb://127.0.0.1:27017/astrologydata')
+mongoose.connect('mongodb+srv://sumanzzz2024:vaishnavi@cluster0.1guwsmu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 const db =mongoose.connection
 db.once('open',()=>{
     console.log("Success mongodb")
